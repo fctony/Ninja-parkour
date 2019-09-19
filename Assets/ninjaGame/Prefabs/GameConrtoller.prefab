@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &110740
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 410740}
+  - component: {fileID: 11410738}
+  - component: {fileID: 11410740}
+  m_Layer: 0
+  m_Name: GameConrtoller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &410740
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 110740}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.10808396, y: 0.85703206, z: -6.733209}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11410738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 110740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 798b3f510f142d44caa1d87fa11baecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ForestWorld:
+  - {fileID: 195996, guid: ad2919686073053459f896dbe6ac7584, type: 3}
+  - {fileID: 157084, guid: 29d7dd8f501e0554092b72cff369fa70, type: 3}
+  - {fileID: 164120, guid: 50a1fd7470e67a14bab4b6bb43461154, type: 3}
+  - {fileID: 115214, guid: 204dd23d2114b9643b8c7a14bed84df5, type: 3}
+  - {fileID: 140772, guid: fe7894e169105df4cbdb0c642cb82cd1, type: 3}
+  CastleWorld:
+  - {fileID: 115892, guid: f30cef1963f37cd4a94083d3827ed049, type: 3}
+  - {fileID: 198390, guid: 97f5aa8448c92904d938d61deaacea3f, type: 3}
+  - {fileID: 167166, guid: abd73e62eaffe8c49b60cc9f962ed722, type: 3}
+  - {fileID: 185680, guid: 25c3dfac404af694098dda72b72a14ee, type: 3}
+  - {fileID: 180942, guid: a63cd78dbd5023b45b036f49a23eb49b, type: 3}
+  nextBlockDistance: 199.46
+  NewCoins:
+  - {fileID: 119314, guid: a7b9212b3dee495499e1db73c3afe7ed, type: 3}
+  - {fileID: 125434, guid: bdd2733cefa739948822ea0a520a63fb, type: 3}
+  - {fileID: 197812, guid: 9068d278bb5ae954183a7d52b7bd33fd, type: 3}
+  Zombies:
+  - {fileID: 104918, guid: 09ecd658f8a1ce949884a58f52ac5e59, type: 3}
+  - {fileID: 191532, guid: 283bec601d340a84b9bf47973264c100, type: 3}
+  - {fileID: 108924, guid: 4d0e2e13445b7d94ab3ca76d076d6a6e, type: 3}
+  - {fileID: 185688, guid: cb28b5db759607649845f2ea10636172, type: 3}
+  Obsticles:
+  - {fileID: 106904, guid: d70724b7292ab4f468d9133cdb25459a, type: 3}
+  - {fileID: 118362, guid: e0291fdc35926834baf08511c2c37917, type: 3}
+  - {fileID: 133256, guid: 484a5787f44f59a4f85a13303d5cc591, type: 3}
+  - {fileID: 164336, guid: f5c279f34a10bce408a1982f4fa425db, type: 3}
+  PowerUps:
+  - {fileID: 165590, guid: 12c592705609e8949a038c7a0b89eb09, type: 3}
+  - {fileID: 173206, guid: dc68df66e30e95f4aa706717cb645b47, type: 3}
+  - {fileID: 170544, guid: 7f50e5436db398e4a82637b74071c428, type: 3}
+  Player: {fileID: 0}
+  isplayerDaed: 0
+  currentWorld: 0
+--- !u!114 &11410740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 110740}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2b0a2d306462fb4faaba3b1c1667443, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isJump: 0
+  isdoubleJump: 0
+  isAttack: 0
